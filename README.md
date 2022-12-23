@@ -6,6 +6,10 @@
 
 ## 사이트 구현
 > Web Server : tomcat 9.0_40, Programming Language : Java8.0/JSP, Database : MySQL, 소스 편집 : Eclipse(Spring)
+------------
+> 데이터베이스 : member(회원), board(게시판)
+------------
+> 구현기능 : home.jsp(메인 화면), LoginMain.jsp(로그인 화면), join.jsp(회원가입 화면), list.jsp(게시물 목록 화면), register.jsp(게시물 등록 화면), get.jsp(상세보기 화면), modify.jsp(게시물 수정 및 삭제 화면)
 
 ## 소감
 >혼자서 프로젝트를 진행하다 보니 어디서 실수를 하였는지 찾는 것에 시간이 많이 걸렸고, 아무래도 혼자서 하는 한계에 부딪히며, 포기하고 싶었던 순간도 많았지만 그래도 수업시간에 배운 내용을 다시 이해하게 되었고, 내가 하고 싶었던 북마크 기능 등을 추가해 보고 완성시켜 보고 싶다.
