@@ -39,6 +39,9 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
         <li class="nav-item">
+            <a class="nav-link" href="login.jsp">로그인</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link" href="register.jsp">게시글등록</a>
         </li>
         <li class="nav-item">

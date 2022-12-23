@@ -10,30 +10,22 @@
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading" style="font-size: 25px; font-weight: 500; padding-bottom: 10px;">
-                            게시글등록
+                            로그인 페이지
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
 
-							<form action="/board/register" method="post">
-	                            <div class="form-group">
-	                                <label>제목</label>
-	                                <input class="form-control" name="title">
-	                            </div>	
+							<form action="/board/register" method="post">	
                                 <div class="form-group">
-                                   <label>내용</label>
-                                   <textarea class="form-control" rows="3" name="content"></textarea>
+                                   <label>아이디</label>
+                                   <input class="form-control" name="id">
                                 </div>
                                 <div class="form-group">
-                                    <label>파일</label>
-                                    <input type="file" id="avatar" name="file" accept="image/png, image/jpeg" >
+                                   <label>비밀번호</label>
+                                   <input class="form-control" name="pwd">
                                 </div>
-	                            <div class="form-group">
-	                                <label>작성자</label>
-	                                <input class="form-control" name="writer">
-	                            </div>
-	                            <button type="submit" class="btn btn-primary">Submit Button</button>
-                              <button type="reset" class="btn btn-danger">Reset Button</button>	                              												
+	                            <button type="login" class="btn btn-primary">로그인 하기</button>
+                              	<button type="join" class="btn btn-danger" onclick="join.jsp" >회원가입 하기</button>	                              												
 							</form>
                         </div>
                         <!-- /.panel-body -->
